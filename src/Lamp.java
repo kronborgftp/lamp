@@ -37,5 +37,8 @@ public class Lamp {
         return name;
     }
 
+    public String toString() {
+        return name + " is on " + isOn;
+    }
 
 }
